@@ -26,6 +26,8 @@ public class ComputeChange {
 		double itemCost = input.nextDouble();
 		System.out.println("Enter the customer payment amount in dollars and cents (##.##): ");
 		double paymentAmount = input.nextDouble();
+		// (not tested) below 2 lines could be condensed to 
+		// changeDue = (paymentAount - itemCost) * CONVERT_CENTS;
 		changeDue = paymentAmount - itemCost;
 		changeDue *= CONVERT_CENTS;
 		changeDueInt = (int)changeDue;
@@ -39,6 +41,8 @@ public class ComputeChange {
 		System.out.println(changeDueInt % CONVERT_CENTS % CONVERT_Q % CONVERT_D % CONVERT_N + " Pennies");
 		// The above series of divide & remainder operations works for low values, like 5.51 & 10, but 
 		// does not correctly calculate for higher values like 95.51/100. Why?
+		// Also note that changeDueInt could be replaced with (int)changeDue in each case, results are the
+		// same either way.
 		input.close();
 		
 	}
