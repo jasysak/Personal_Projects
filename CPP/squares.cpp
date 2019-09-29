@@ -1,4 +1,4 @@
-// squares.cc
+// squares.cpp
 //
 // A simple c++ program to determine if user entry of
 // two points in space, x and y, are a perfect square,
