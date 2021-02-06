@@ -4,7 +4,7 @@
 # if number is divisible by both 3 and 5 print FizzBuzz
 # else print the number
 # from -50 to 100...in python. 
-# Almost too easy and not particularly elegant...but it works!
+# Almost too easy and not particularly elegant and has a lot of repitition...but it works!
 printed = 0
 i = -50
 while i <=100: 
