@@ -1,3 +1,12 @@
+/*   A simple FizzBuzz solution in Java
+     if number is / 3 print Fizz
+     if number is / 5 print Buzz
+     if number is / 3 and 5 both print FizzBuzz
+     else print the number
+     This one is better than my somewhat poor python solution
+     Less repitition here...still not a great piece of code but it works
+*/
+    
 public class FizzBuzz{
 
      public static void main(String []args){
