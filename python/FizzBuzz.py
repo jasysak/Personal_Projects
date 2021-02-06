@@ -1,4 +1,8 @@
 # The 'seminal' FizzBuzz problem
+# if number is divisible by 3 print Fizz
+# if number is divisible by 5 print Buzz
+# if number is divisible by both 3 and 5 print FizzBuzz
+# else print the number
 # from -50 to 100...in python. 
 # Almost too easy and not particularly elegant...but it works!
 printed = 0
@@ -13,6 +17,6 @@ while i <=100:
         print("Buzz")
     else:
         print (i)
-        printed = 0
+    printed = 0
     i += 1
 # eof
