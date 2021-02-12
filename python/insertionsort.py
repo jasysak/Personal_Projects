@@ -20,7 +20,7 @@ def insertionSort(arr):
   
   
 # Driver code to test above 
-arr = [12, 11, 13, 5, 6] 
+arr = [91, 88, 75, 67, 54, 42, 38, 25, 18, 4] 
 insertionSort(arr) 
 print ("Sorted array is:") 
 for i in range(len(arr)): 
