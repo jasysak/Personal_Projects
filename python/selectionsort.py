@@ -2,7 +2,7 @@
 # Sort 
 # from https://www.geeksforgeeks.org/python-program-for-selection-sort/
 import sys 
-A = [64, 25, 12, 22, 11] 
+A = [99, 34, 42, 9, 11, 77, 56, 69, 80] 
 
 # Traverse through all array elements 
 for i in range(len(A)): 
